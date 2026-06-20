@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>球探 · 站点简介</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', sans-serif;
+            background: #f4f5f7;
+            line-height: 1.7;
+            color: #1e1e2a;
+        }
+        .hero {
+            background: linear-gradient(145deg, #0b0c12 0%, #1b1e2a 100%);
+            padding: 5rem 2rem 4rem;
+            text-align: center;
+            color: #eaeef2;
+            border-bottom: 4px solid #2b6c94;
+        }
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 550;
+            letter-spacing: 0.04em;
+            margin-bottom: 1rem;
+        }
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #b0c7d9;
+            max-width: 660px;
+            margin: 0 auto;
+        }
+        .wrap {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2.8rem 1.8rem 4rem;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 2.4rem 2.8rem;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+            margin-bottom: 2.4rem;
+        }
+        .card h2 {
+            font-size: 1.6rem;
+            font-weight: 540;
+            margin-bottom: 1.2rem;
+            color: #0f1922;
+            border-left: 5px solid #2b6c94;
+            padding-left: 1rem;
+        }
+        .card p {
+            margin-bottom: 1.2rem;
+        }
+        .card p:last-child {
+            margin-bottom: 0;
+        }
+        .highlight {
+            background: #f0f4fa;
+            border-left: 4px solid #2b6c94;
+            padding: 1.2rem 1.6rem;
+            border-radius: 12px;
+            margin: 1.6rem 0;
+            font-size: 0.98rem;
+        }
+        .highlight strong {
+            color: #1a4b6b;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.6rem;
+            margin: 1.8rem 0;
+        }
+        .feature-item {
+            background: #f9fafc;
+            padding: 1.2rem 1.4rem;
+            border-radius: 18px;
+            border: 1px solid #e6ecf2;
+        }
+        .feature-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.4rem;
+            color: #1a3b4f;
+        }
+        .feature-item p {
+            font-size: 0.94rem;
+            color: #3e4a59;
+        }
+        .faq-mini {
+            margin: 1.8rem 0 0.4rem;
+        }
+        .faq-mini details {
+            margin-bottom: 0.8rem;
+            background: #f8f9fb;
+            border-radius: 14px;
+            padding: 0.6rem 1.2rem;
+            border: 1px solid #e2e8f0;
+        }
+        .faq-mini summary {
+            font-weight: 540;
+            cursor: pointer;
+            padding: 0.3rem 0;
+            color: #1a3b4f;
+        }
+        .faq-mini details p {
+            margin-top: 0.6rem;
+            padding-left: 0.4rem;
+            color: #2f3b47;
+            font-size: 0.95rem;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 0.95rem;
+            color: #5b6a7a;
+            padding: 2rem 0 1rem;
+            border-top: 1px solid #dce2ea;
+            margin-top: 2rem;
+        }
+        a {
+            color: #1f6390;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        a:hover {
+            border-bottom-color: #1f6390;
+            color: #0d3c5c;
+        }
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            border: 1.5px solid #2b6c94;
+            color: #1f6390;
+            padding: 0.55rem 1.8rem;
+            border-radius: 40px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: 0.2s;
+            margin-top: 0.6rem;
+        }
+        .btn-outline:hover {
+            background: #2b6c94;
+            color: #fff;
+            border-color: #2b6c94;
+        }
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 2rem; }
+            .card { padding: 1.8rem 1.4rem; }
+            .feature-grid { grid-template-columns: 1fr; }
+            .wrap { padding: 1.6rem 1rem 3rem; }
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>关于球探 · 用途速览</h1>
+    <div class="sub">一份直白的说明——这个站是做什么的，你进来之后大概能获得什么。</div>
+</section>
+
+<div class="wrap">
+
+    <div class="card">
+        <h2>一句话说清定位</h2>
+        <p>如果你在找与足球相关的实时数据、赛程、队伍动态，<a href="https://zh-ssl-qiutan.com">球探</a> 是一个方向比较聚焦的信息聚合站点。它不制造新闻，而是把分散在不同联赛、不同平台的基础信息（比赛时间、比分、阵容等）整理到同一个界面里。</p>
+        <p>很多球迷日常需要反复切换多个页面才能拼凑出完整的赛日前瞻，这个站希望替你做那部分“搬运+整理”的工作。界面风格偏实用，没有过多装饰，核心就是快速找到你要看的那场比赛。</p>
+        <div class="highlight">
+            <strong>注意：</strong> 球探本身不提供直播流或视频回放，它更偏重数据面板与信息索引。
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>常见使用场景</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>赛前快速查时间</h3>
+                <p>五大联赛、欧冠、亚冠等主流赛事的开球时间一览，不用逐个联赛官网翻。</p>
+            </div>
+            <div class="feature-item">
+                <h3>实时比分刷新</h3>
+                <p>比赛进行中时，页面会持续更新进球、红黄牌、换人，适合无法看直播但想跟节奏的人。</p>
+            </div>
+            <div class="feature-item">
+                <h3>阵容与替补</h3>
+                <p>首发名单、阵型、替补球员，通常赛前半小时到一小时就会展示。</p>
+            </div>
+            <div class="feature-item">
+                <h3>多联赛混合浏览</h3>
+                <p>你可以同时关注英超、西甲、意甲等，不用切标签页，同一个列表里按时间排序。</p>
+            </div>
+        </div>
+        <p style="margin-top: 0.8rem;">如果你是那种“只关心某几支球队，但希望看到它们所有比赛信息”的用户，<a href="https://zh-ssl-qiutan.com">球探</a> 的筛选功能可以帮你把不相关的比赛暂时隐藏。</p>
+    </div>
+
+    <div class="card">
+        <h2>一个小的提醒</h2>
+        <p>站内部分数据来自公共接口或第三方数据商，更新速度大多在秒级或分钟级。遇到极端比赛日（比如周末五大联赛同时开球），数据刷新可能会有短暂堆积，属于正常现象。</p>
+        <p>另外，移动端访问时布局会自动调整，但如果你想获得最完整的表格视图，建议在平板或桌面浏览器上使用——字段会展示得更全，比如裁判、进球时间点、控球率等细节。</p>
+        <div class="highlight">
+            <strong>引用提示：</strong> “信息的价值不在于多，而在于你找到它时不用再费心核对。” —— 这是球探整理页面的出发点。
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>你可能想问的（FAQ 摘要）</h2>
+        <div class="faq-mini">
+            <details>
+                <summary>需要注册或付费吗？</summary>
+                <p>不需要。目前所有公开的比赛信息都可以直接浏览，无需注册，也没有付费墙。</p>
+            </details>
+            <details>
+                <summary>数据来源可靠吗？</summary>
+                <p>数据主要聚合自多家体育数据供应方，并与联赛官方公布时间进行交叉比对，但极端情况下可能出现延迟或录入错误，建议以赛事方公告为准。</p>
+            </details>
+            <details>
+                <summary>手机上的操作和电脑一样吗？</summary>
+                <p>核心功能一致，但手机屏幕较小时部分表格会横向滚动，或者以列表卡片形式呈现，不影响基本查阅。</p>
+            </details>
+        </div>
+        <p style="margin-top: 1.2rem;">如果你还有其他疑问，可以在站内页面底部找到联系方式或常见问题入口。或者直接去 <a href="https://zh-ssl-qiutan.com">球探</a> 首页慢慢翻，很多细节其实看一眼就明白了。</p>
+    </div>
+
+    <div class="footer-note">
+        <p>内容整理于 2025 · 仅作介绍用途 · 数据页面以实际展示为准</p>
+        <p style="margin-top: 0.4rem; font-size: 0.85rem; color: #7b8a9a;">—— 希望这篇说明能帮你更快判断这个站是否适合你 ——</p>
+    </div>
+</div>
+
+</body>
+</html>
